@@ -1,0 +1,15 @@
+{
+  "name": "codewars-desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack-mac": "electron-packager . CodeWars-Desktop --asar.unpack=protocol-link.html --overwrite --platform=darwin --arch=x64 --out=out --osx-sign.identity='Developer ID Application: 3DEsprit' --appBundleId='CodeWars-Desktop' appCategoryType=public.app-category.education"
+  },
+  "author": "Dennis Brown <npm@dvs.com.co> (https://networksynapse.net/)",
+  "license": "MIT",
+  "dependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
+}
