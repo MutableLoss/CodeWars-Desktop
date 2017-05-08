@@ -9,13 +9,13 @@ If you have any recommendations for changes by all means let me know!
 As for contributions, I do not mind if anyone submits PRs as long as it adds to the functionality, and does not remove the current functionality.
 
 
-## Builds
+## Download Builds
 
-**Current Version: 0.1.0**
+**Current Version: 0.1.1**
 
-* OSX: 
-* Linux:
-* Windows: 
+* [OSX](https://github.com/3DEsprit/CodeWars-Desktop/releases/download/0.1.1/CodeWars-Desktop-OSX_0.1.1.zip)
+* [Linux](https://github.com/3DEsprit/CodeWars-Desktop/releases/download/0.1.1/CodeWars-Desktop-Linux_0.1.1.zip)
+* [Windows](https://github.com/3DEsprit/CodeWars-Desktop/releases/download/0.1.1/CodeWars-Desktop-Win_0.1.1.zip)
 
 
 ## License
