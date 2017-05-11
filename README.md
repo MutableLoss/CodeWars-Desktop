@@ -11,11 +11,11 @@ As for contributions, I do not mind if anyone submits PRs as long as it adds to 
 
 ## Download Builds
 
-**Current Version: 0.1.1**
+**Current Version: 0.1.2**
 
-* [OSX](https://github.com/3DEsprit/CodeWars-Desktop/releases/download/0.1.1/CodeWars-Desktop-OSX_0.1.1.zip)
-* [Linux](https://github.com/3DEsprit/CodeWars-Desktop/releases/download/0.1.1/CodeWars-Desktop-Linux_0.1.1.zip)
-* [Windows](https://github.com/3DEsprit/CodeWars-Desktop/releases/download/0.1.1/CodeWars-Desktop-Win_0.1.1.zip)
+* [OSX](https://github.com/3DEsprit/CodeWars-Desktop/releases/download/0.1.2/CodeWars-Desktop-OSX_0.1.2.zip)
+* [Linux](https://github.com/3DEsprit/CodeWars-Desktop/releases/download/0.1.2/CodeWars-Desktop-Linux_0.1.2.zip)
+* [Windows](https://github.com/3DEsprit/CodeWars-Desktop/releases/download/0.1.2/CodeWars-Desktop-Win_0.1.2.zip)
 
 
 ## License
