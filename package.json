@@ -1,13 +1,13 @@
 {
   "name": "codewars-desktop",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "CodeWars Desktop Website App",
   "main": "./main.js",
   "scripts": {
     "start": "electron .",
-    "pack-mac": "electron-packager . CodeWars-Desktop --asar.unpack=protocol-link.html --overwrite --platform=darwin --arch=x64 --out=out --osx-sign.identity='Developer ID Application: 3DEsprit' --appBundleId='CodeWars-Desktop' appCategoryType=public.app-category.education",
-    "pack-win": "electron-packager . CodeWars-Desktop --asar.unpack=protocol-link.html --overwrite --platform=win32 --arch=x64 --out=out",
-    "pack-linux": "electron-packager . CodeWars-Desktop --asar.unpack=protocol-link.html --overwrite --platform=linux --arch=x64 --out=out --prune=true"
+    "pack-mac": "electron-packager . CodeWars-Desktop --icon=assets/codewars.icns --asar.unpack=protocol-link.html --overwrite --platform=darwin --arch=x64 --out=out --osx-sign.identity='Developer ID Application: 3DEsprit' --appBundleId='CodeWars-Desktop' appCategoryType=public.app-category.education",
+    "pack-win": "electron-packager . CodeWars-Desktop --icon=assets/codewars.png --asar.unpack=protocol-link.html --overwrite --platform=win32 --arch=x64 --out=out",
+    "pack-linux": "electron-packager . CodeWars-Desktop --icon=assets/codewars.ico --asar.unpack=protocol-link.html --overwrite --platform=linux --arch=x64 --out=out --prune=true"
   },
   "author": "Dennis Brown <npm@dvs.com.co> (https://networksynapse.net/)",
   "license": "MIT",
