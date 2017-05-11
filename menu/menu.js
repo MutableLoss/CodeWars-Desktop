@@ -4,7 +4,7 @@ const OSXtemplate = [
   {
     label: 'Application',
     submenu: [
-      { label: 'About 6502Desktop', selector: 'orderFrontStandardAboutPanel:' },
+      { label: 'About CodeWars Desktop', selector: 'orderFrontStandardAboutPanel:' },
       { label: 'Quit', accelerator: 'Command+Q', click: function () { app.quit(); } }
     ]
   },
@@ -37,7 +37,7 @@ const OSXtemplate = [
   {
     label: 'Help',
     submenu: [
-      { label: 'Easy 6502 Tutorial', click: function () { require('electron').shell.openExternal('http://electron.atom.io'); } }
+      { label: 'About Electron', click: function () { require('electron').shell.openExternal('http://electron.atom.io'); } }
     ]
   },
 ]
@@ -63,8 +63,7 @@ const PCtemplate = [
   {
     label: 'Help',
     submenu: [
-      { label: 'About 6502Desktop', selector: 'orderFrontStandardAboutPanel:' },
-      { label: 'Easy 6502 Tutorial', click: function () { electronOpenLinkInBrowser('http://example.com'); } }
+      { label: 'About CodeWars Desktop', selector: 'orderFrontStandardAboutPanel:' }
     ]
   },
 ]
