@@ -1,4 +1,4 @@
-const { app } = require('electron')
+const { app, shell } = require('electron')
 
 const OSXtemplate = [
   {
@@ -6,6 +6,26 @@ const OSXtemplate = [
     submenu: [
       { label: 'About CodeWars Desktop', selector: 'orderFrontStandardAboutPanel:' },
       { label: 'Quit', accelerator: 'Command+Q', click: function () { app.quit(); } }
+    ]
+  },
+  {
+    label: "Go",
+    submenu: [
+      { label: 'Home',
+        click() { 'https://www.codewars.com/dashboard' }
+      },
+      { label: 'Kata',
+        click() { 'https://www.codewars.com/kata/latest/my-languages' }
+      },
+      { label: 'Kumite',
+        click() { 'https://www.codewars.com/kumite' }
+      },
+      { label: 'Forum',
+        click() { shell.openExternal('https://www.codewars.com/topics') }
+      },
+      { label: 'Wiki',
+        click() { shell.openExternal('https://github.com/codewars/codewars.com/wiki') }
+      },
     ]
   },
   {
