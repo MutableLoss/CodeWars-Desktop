@@ -6,6 +6,8 @@ const url = require('url')
 const { OSXtemplate, PCtemplate } = require('./menu/menu')
 let mainWindow
 
+app.allowRendererProcessReuse = false
+
 function createWindow () {
   mainWindow = new BrowserWindow({width: 1000, height: 800, webPreferences: {nodeIntegration: false}})
 
