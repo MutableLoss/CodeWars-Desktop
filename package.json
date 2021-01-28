@@ -14,7 +14,7 @@
   "author": "Dennis Brown <npm@dvs.com.co> (https://networksynapse.net/)",
   "license": "MIT",
   "dependencies": {
-    "electron": "^8.0.0"
+    "electron": "^9.4.0"
   },
   "devDependencies": {
     "electron-builder": "^22.7.0"
